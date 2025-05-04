@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #3b14e9, #b16706);
+    position: relative;
+}
+
+.estrelas{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(1px 1px at 25% 15%, #fff, transparent),
+    radial-gradient(1px 1px at 50% 40%, #fff, transparent),
+    radial-gradient(2px 2px at 15% 55%, #fff, transparent),
+    radial-gradient(1px 1px at 70% 25%, #fff, transparent),
+    radial-gradient(1px 1px at 40% 51%, #fff, transparent),
+    radial-gradient(1px 1px at 15% 25%, #fff, transparent),
+    radial-gradient(1px 1px at 50% 15%, #fff, transparent),
+    radial-gradient(1px 1px at 25% 15%, #fff, transparent),
+    radial-gradient(1px 1px at 55% 35%, #fff, transparent),
+    radial-gradient(2px 2px at 15% 55%, #fff, transparent),
+    radial-gradient(1px 1px at 70% 29%, #fff, transparent),
+    radial-gradient(1.5px 1px at 40% 50%, #fff, transparent),
+    radial-gradient(1px 1px at 15% 22%, #fff, transparent),
+    radial-gradient(1px 1px at 50% 18%, #fff, transparent),
+    radial-gradient(1px 1px at 80% 50%, #fff, transparent),
+    radial-gradient(1px 1px at 50% 90%, #fff, transparent),
+    radial-gradient(2px 2px at 95% 55%, #fff, transparent);
+}
+
+.formulario{
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.15); 
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 35px;
+}
+
+.formulario h1{
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.caixa-formulario{
+    position: relative;
+    margin-bottom: 30px;
+}
+.caixa-formulario input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 16px;
+    padding: 0 20px;
+}
+
+.caixa-formulario input::placeholder{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.caixa-formulario i{
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+    top: 25%;
+    color: #fff;
+}
+
+.caixa-lembrar-esqueci{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.caixa-lembrar-esqueci label{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+}
+
+.caixa-lembrar-esqueci label input{
+    accent-color: rgb(127, 12, 215);
+}
+
+.caixa-lembrar-esqueci a{   
+    text-decoration: none;
+    color: #fff;
+}
+
+.caixa-lembrar-esqueci a:hover{
+    text-decoration: underline;
+}
+
+button{
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #2a1b6b;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+button:hover{
+    background-color: rgba(255, 255, 255, 0.9);
+    transform: translateY(-5px);
+}
+
+.link-registro{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.link-registro a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.link-registro a:hover{
+    text-decoration: underline;
+}
